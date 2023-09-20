@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+        <div>
+            <label>Name:</label><input type="text" placeholder="Enter your name"><br><br>
+            <label>Email:</label><input type="email" placeholder="Enter your email"><br><br>
+            <label>Password:</label><input type="password"><br><br>
+            <label>Phone Number:</label>
+            <select name="contry-code" id="num">
+                <option value="Select" selected disabled>Select code</option>
+                <option value="+91">+91</option>
+                <option value="+91">+81</option>
+                <option value="+91">+71</option>
+                <option value="+91">+63</option>
+            </select>
+            <input type="number"><br><br>
+            <label>Gender:</label><input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Others <br><br>
+            <label>Language:</label><select name="language" id="lang">
+                <option value="select" selected disabled>Select your language</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Tamil">English</option>
+                <option value="Tamil">Malayalam</option>
+                <option value="Tamil">Hindi</option>
+            </select><br><br>
+            <label>Zip code:</label><input type="number"><br><br>
+            <label>About:</label><textarea></textarea><br><br>
+            <input type="submit" value="Register">
+        </div>
+   
+</body>
+
+</html>
